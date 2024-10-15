@@ -53,22 +53,22 @@ This JavaFX Sales Management System is designed to streamline the sales process 
 
 ## Screenshots
 ### Menu
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Menu.png" alt="Menu" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Menu.png" alt="Menu" width="400" />  
 
 ### Daily Sales
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Daily Sales.png" alt="Daily Sales" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Daily%20Sales.png" alt="Daily Sales" width="400" />  
 
 ### Sales Invoice
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Sales Invoice.png" alt="Sales Invoice" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Sales%20Invoice.png" alt="Sales Invoice" width="400" />  
 
 ### Item
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Item.png" alt="Item" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Item.png" alt="Item" width="400" />  
 
 ### Customer
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Customer.png" alt="Customer" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Customer.png" alt="Customer" width="400" />  
 
 ### Purchase
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Purchase.png" alt="Purchase" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Purchase.png" alt="Purchase" width="400" />  
 
 ### Add Ledger Entry
-<img src="https://raw.githubusercontent.com/Clesssss/Cleo/master/screenshots/Add Ledger Entry.png" alt="Add Ledger Entry" width="400" />  
+<img src="https://github.com/Clesssss/Cleo/blob/master/screenshots/Add%20Ledger%20Entry.png" alt="Add Ledger Entry" width="400" />  
