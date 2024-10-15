@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prototype.SalesInvoiceController">
+   <children>
+      <Label layoutX="55.0" layoutY="38.0" text="Sales Invoice">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="81.0" text="Nama Toko :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="109.0" text="Area :" />
+      <TextField fx:id="nameTextField" layoutX="149.0" layoutY="78.0" promptText="Search..." />
+      <TextField fx:id="areaTextField" editable="false" layoutX="149.0" layoutY="105.0" />
+      <TextField fx:id="jumlahTextField1" layoutX="217.0" layoutY="189.0" prefHeight="25.0" prefWidth="98.0" />
+      <Button layoutX="55.0" layoutY="541.0" mnemonicParsing="false" onAction="#onSave" text="Save" />
+      <Button layoutX="125.0" layoutY="541.0" mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
+      <DatePicker fx:id="datePicker" layoutX="663.0" layoutY="53.0" />
+      <Label layoutX="55.0" layoutY="151.0" text="Item">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="192.0" text="CLEO CUP 220 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jumlahTextField2" layoutX="217.0" layoutY="216.0" prefHeight="25.0" prefWidth="98.0" />
+      <Label layoutX="61.0" layoutY="219.0" text="CLEO CLASSIC 330 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="246.0" text="CLEO CLASSIC 550 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jumlahTextField3" layoutX="217.0" layoutY="243.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField4" layoutX="217.0" layoutY="270.0" prefHeight="25.0" prefWidth="98.0" />
+      <Label layoutX="61.0" layoutY="273.0" text="CLEO 6L">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jumlahTextField5" layoutX="217.0" layoutY="297.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField6" layoutX="217.0" layoutY="324.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField7" layoutX="217.0" layoutY="351.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField8" layoutX="217.0" layoutY="378.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField9" layoutX="217.0" layoutY="405.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="jumlahTextField10" layoutX="217.0" layoutY="432.0" prefHeight="25.0" prefWidth="98.0" />
+      <Line endX="300.0" layoutX="203.0" layoutY="215.0" startX="-150.0" stroke="#0000004d" />
+      <Label layoutX="338.0" layoutY="151.0" text="Harga">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="441.0" layoutY="151.0" text="Total">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="151.0" text="Jumlah">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="303.0" layoutX="316.0" layoutY="155.0" startX="-100.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="188.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="242.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="269.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="296.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="323.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="350.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="377.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="-100.0" endY="303.0" layoutX="416.0" layoutY="155.0" startX="-100.0" stroke="#0000004d" />
+      <Label layoutX="61.0" layoutY="300.0" text="CLEO SMART 220 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="327.0" text="CLEO ECO 330 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="354.0" text="CLEO ECO 550 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="381.0" text="CLEO ECO 1500 ML">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="408.0" text="CLEO GALON 19 LT">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Line endX="300.0" layoutX="203.0" layoutY="404.0" startX="-150.0" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="431.0" startX="-150.0" stroke="#0000004d" />
+      <Label layoutX="61.0" layoutY="435.0" text="GALON KOSONG">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Line endX="-95.99996948242188" endY="303.0" layoutX="516.0" layoutY="155.0" startX="-99.99996948242188" stroke="#0000004d" />
+      <Line endX="300.0" layoutX="203.0" layoutY="458.0" startX="-150.0" stroke="#0000004d" />
+      <Label layoutX="358.0" layoutY="464.0" text="Total">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel1" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="192.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel2" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="219.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel3" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="246.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel4" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="273.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel5" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="300.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel6" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="327.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel7" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="354.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel8" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="381.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel9" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="408.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel10" alignment="CENTER_RIGHT" layoutX="336.0" layoutY="435.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel5" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="300.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel2" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="219.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel3" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="246.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel4" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="273.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel1" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="192.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel6" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="327.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel7" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="354.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel8" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="381.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel9" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="408.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalLabel10" alignment="CENTER_RIGHT" layoutX="432.0" layoutY="435.0" prefHeight="19.0" prefWidth="61.0" text="0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalTotalLabel" alignment="CENTER_RIGHT" layoutX="420.0" layoutY="464.0" prefHeight="19.0" prefWidth="73.0" text="0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="tagihanCheckBox" layoutX="787.0" layoutY="526.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="73.0" text="Tagihan" />
+      <Label layoutX="334.0" layoutY="495.0" text="Discount">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="discountTextField" layoutX="425.0" layoutY="492.0" prefHeight="25.0" prefWidth="73.0" />
+      <Label layoutX="290.0" layoutY="528.0" text="Total after Disc.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAfterDiscLabel" alignment="CENTER_RIGHT" layoutX="420.0" layoutY="528.0" prefHeight="19.0" prefWidth="73.0" text="0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ListView fx:id="nameListView" layoutX="149.0" layoutY="102.0" prefHeight="78.0" prefWidth="149.0" visible="false" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prototype.AddLedgerEntryController">
+   <children>
+      <Label layoutX="64.0" layoutY="51.0" text="Add Ledger Entry">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="190.0" text="Description :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="240.0" text="Account Type :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="290.0" text="Amount :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="descriptionTextField" layoutX="276.0" layoutY="191.0" />
+      <TextField fx:id="amountTextField" layoutX="276.0" layoutY="291.0" />
+      <Button layoutX="134.0" layoutY="421.0" mnemonicParsing="false" onAction="#onSave" text="Save" />
+      <Button layoutX="204.0" layoutY="421.0" mnemonicParsing="false" onAction="#onCancel" text="Cancel" />
+      <ChoiceBox fx:id="choiceBox" layoutX="276.0" layoutY="241.0" prefWidth="150.0" />
+      <DatePicker fx:id="datePicker" layoutX="666.0" layoutY="53.0" />
+   </children>
+</AnchorPane>
